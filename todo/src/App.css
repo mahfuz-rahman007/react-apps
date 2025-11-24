@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.create-form {
+  background: #173946;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+#todo-input {
+  padding: 7px;
+  border-radius: 5px;
+  background: #9bcad6;
+  color: black;
+}
+
+h2 {
+  text-align: left;
+}
+
+ul {
+  list-style: decimal;
+  text-align: left;
+}
+
+ul li {
+  padding: 8px;
+}
+
+.completed-todo li {
+  text-decoration: line-through;
+}
